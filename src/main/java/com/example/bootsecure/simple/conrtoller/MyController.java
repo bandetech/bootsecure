@@ -11,7 +11,7 @@ public class MyController {
 
     @RequestMapping(value="/")
     private String hello(Model model){
-    	model.addAttribute("message", "Hello Goodbye!!");
+    	model.addAttribute("message", "Hello !!");
         return "hello";
     }
     
